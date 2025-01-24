@@ -3,175 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>button/list/card</title>
+    <title>accordian</title>
+
     <link rel="stylesheet" href="bootstrap.min.css">
 </head>
 <body>
-    <div class="container my-5">
-        <button class="btn btn-dark">click</button>
-        <a href="" class="btn btn-warning">clickable</a>
-        <button class="btn btn-dark px-3">click</button>
-    </div>
-
-
-
-    <div class="container my-5">
-        <button class="btn btn-outline-danger shadow btn-sm px-5">click</button>
-        <a href="" class="btn btn-outline-success shadow btn-md active">submit</a>
-        <button class="btn btn-outline-dark shadow btn-sm px-5">click</button>
-    </div>
-
-
-
-    <div class="container my-5">
-        <button class="btn btn-secondary btn-sm ">+</button>
-        <a href="" class="btn btn-outline-success shadow btn-md disabled">10</a>
-        <button class="btn btn-secondary">-</button>
-    </div>
-
-
-
-
-
-    <div class="container border border-dark p-5">
-        <ul class="list-group list-group-flush list-group-numbered">
-            <li class="list-group-item list-group-item-action active">bapa sitaram</li>
-            <li class="list-group-item list-group-item-action">bapa sitaram</li>
-            <li class="list-group-item list-group-item-action">bapa sitaram</li>
-            <li class="list-group-item list-group-item-action">bapa sitaram</li>
-            <li class="list-group-item list-group-item-action">bapa sitaram</li>
-        </ul>
-    </div>
-
-
-
-
-
-    <div class="container my-5">
-        <div class="row">
-            <div class="col-6 bg-dark p-4 ">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item list-group-item-action active">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <h3 class="fw-bold">jay parmar</h3>
-                            <span class="badge text-bg-dark rounded-pill">11</span>
+    <section>
+        <div class="container my-5">
+            <div class="accordion">
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#first">
+                            Accordion no 1
+                        </button>
+                    </h3>
+                    <div class="accordion-collapse collapse show " id="first">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dignissimos minus voluptates saepe sit autem cupiditate impedit! Velit voluptatem officiis nulla expedita rerum voluptates molestias illum, sunt aliquam eligendi natus?
                         </div>
-                        <p>instagram/snapchat</p>
-                    </li>
-                    <li class="list-group-item list-group-item-action">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <h3 class="fw-bold">jay parmar</h3>
-                            <span class="badge text-bg-info rounded-pill">11</span>
+                        <img src="https://i.pinimg.com/736x/9c/e5/65/9ce565bff1eb83307420e54cbaa3b2b0.jpg" alt="">
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#second">
+                            Accordion no 2
+                        </button>
+                    </h3>
+                    <div class="accordion-collapse collapse show " id="second">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dignissimos minus voluptates saepe sit autem cupiditate impedit! Velit voluptatem officiis nulla expedita rerum voluptates molestias illum, sunt aliquam eligendi natus?
                         </div>
-                        <p>instagram/snapchat</p>
-                    </li>
-                    <li class="list-group-item list-group-item-action">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <h3 class="fw-bold">jay parmar</h3>
-                            <span class="badge text-bg-info rounded-pill">11</span>
+                        <div class="accordion-img">
+                            <img src="https://c.ndtvimg.com/2024-10/phm1qec_mahindrascorpioclassicbossedition1_625x300_23_October_24.jpg?im=FeatureCrop,algorithm=dnn,width=545,height=307" alt="">
                         </div>
-                        <p>instagram/snapchat</p>
-                    </li>
-                    <li class="list-group-item list-group-item-action">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <h3 class="fw-bold">jay parmar</h3>
-                            <span class="badge text-bg-info rounded-pill">11</span>
+                      
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#third">
+                            Accordion no 3
+                        </button>
+                    </h3>
+                    <div class="accordion-collapse collapse show " id="third">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dignissimos minus voluptates saepe sit autem cupiditate impedit! Velit voluptatem officiis nulla expedita rerum voluptates molestias illum, sunt aliquam eligendi natus?
                         </div>
-                        <p>instagram/snapchat</p>
-                    </li>
-                    <li class="list-group-item list-group-item-action">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <h3 class="fw-bold">jay parmar</h3>
-                            <span class="badge text-bg-info rounded-pill">11</span>
-                        </div>
-                        <p>instagram/snapchat</p>
-                    </li>
-                </ul>
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png" alt="">
+                    </div>
+                </div>
+               
             </div>
         </div>
-    </div>
-
-    
-
-
-
-
-
-
-    <div class="container my-5 shadow p-5 ">
-        <h1 class="text-bg-dark align-center">HOLIDAYS</h1>
-        <div class="row ">
-            <div class="col-3">
-                <div class="card border-0 shadow" style="max-width: 400px;">
-                    <img src="https://t4.ftcdn.net/jpg/01/14/62/33/360_F_114623372_ZUIjiBqg3GGiTkkvFzAk4GJ0zpqliJE7.jpg" class="card-img-top" alt="" >
-                    <div class="card-body">
-                        <h2 class="card-title">India</h2>
-                        <div class="double d-flex justify-content-between">
-                            <h4 class="text-info ">Ticket booking</h4>
-                            <h5 class="text-info p-2">₹500/-</h5>
-                        </div>
-                        <p class="text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        
-                        <button class="btn btn-outline-success fw-bold float-start px-5">Buy</button>
-                        <button class="btn btn-outline-warning fw-bold float-end px-2">More</button>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card border-0 shadow" style="max-width: 400px;">
-                    <img src="https://t4.ftcdn.net/jpg/01/14/62/33/360_F_114623372_ZUIjiBqg3GGiTkkvFzAk4GJ0zpqliJE7.jpg" class="card-img-top" alt="" >
-                    <div class="card-body">
-                        <h2 class="card-title">India</h2>
-                        <div class="double d-flex justify-content-between">
-                            <h4 class="text-info ">Ticket booking</h4>
-                            <h5 class="text-info p-2">₹500/-</h5>
-                        </div>
-                        <p class="text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        
-                        <button class="btn btn-outline-success fw-bold float-start px-5">Buy</button>
-                        <button class="btn btn-outline-warning fw-bold float-end px-2">More</button>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card border-0 shadow" style="max-width: 400px;">
-                    <img src="https://t4.ftcdn.net/jpg/01/14/62/33/360_F_114623372_ZUIjiBqg3GGiTkkvFzAk4GJ0zpqliJE7.jpg" class="card-img-top" alt="" >
-                    <div class="card-body">
-                        <h2 class="card-title">India</h2>
-                        <div class="double d-flex justify-content-between">
-                            <h4 class="text-info ">Ticket booking</h4>
-                            <h5 class="text-info p-2">₹500/-</h5>
-                        </div>
-                        <p class="text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        
-                        <button class="btn btn-outline-success fw-bold float-start px-5">Buy</button>
-                        <button class="btn btn-outline-warning fw-bold float-end px-2">More</button>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="card border-0 shadow" style="max-width: 400px;">
-                    <img src="https://t4.ftcdn.net/jpg/01/14/62/33/360_F_114623372_ZUIjiBqg3GGiTkkvFzAk4GJ0zpqliJE7.jpg" class="card-img-top" alt="" >
-                    <div class="card-body">
-                        <h2 class="card-title">India</h2>
-                        <div class="double d-flex justify-content-between">
-                            <h4 class="text-info ">Ticket booking</h4>
-                            <h5 class="text-info p-2">₹500/-</h5>
-                        </div>
-                        <p class="text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        
-                        <button class="btn btn-outline-success fw-bold float-start px-5">Buy</button>
-                        <button class="btn btn-outline-warning fw-bold float-end px-2">More</button>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-       
-    </div>
+    </section>
 </body>
 <script src="bootstrap.bundle.min.js"></script>
 </html>
