@@ -6,54 +6,104 @@
     <title>MAILLER PROJECT</title>
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
-        <div class="navbar navbar-expand-md navbar-dark bg-dark p-4">
+        <div class="navbar navbar-expand-md p-4">
             <div class="container-fluid">
-                <h1 class="navbar-brand text-color h1">Mailler</h1>
+                <h1 class="navbar-brand text-color h1"><i class="fa-solid fa-envelope"></i>         Mailler</h1>
                 <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="navbar-collapse collapse" id="navbar">
+                <div class="navbar-collapse collapse p-1" id="navbar">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Home</a>
+                        <li class="nav-item me-3 mt-1 py-1">
+                            <a href="" class="nav-item nav-link link-pink fw-bold">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">About</a>
+                        <li class="nav-item me-3 mt-1  py-1">
+                            <a href="" class="nav-item nav-link fw-bold">About</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside">Products</a>
+                        <li class="nav-item me-3 mt-1  py-1">
+                            <a href="" class="nav-link fs-6 fw-bold">Services</a>
+                        </li>
+                        <li class="nav-item dropdown me-3 mt-1 py-1">
+                            <a href="" class="nav-link dropdown-toggle fs-6 fw-bold" data-bs-toggle="dropdown" data-bs-auto-close="outside">Pages</a>
 
-                            <ul class="dropdown-menu">
-                                <li class="dropdown-item">computer</li>
-                                <li class="dropdown-item">laptop</li>
-                                <li class="dropdown-item">keyboard</li>
-                                <li class="dropdown-item dropdown dropend">
-                                    <a href="" class="nav-link text-dark dropdown-toggle" data-bs-toggle="dropdown">mobile</a>
-                                    <ul class="dropdown-menu">
-                                        <li class="dropdown-item">macbook</li>
-                                        <li class="dropdown-item">HP thinkbook</li>
-                                        <li class="dropdown-item">lenovo</li>
-                                        <li class="dropdown-item">notebook</li>
-                                    </ul>
-                                </li>
+                            <ul class="dropdown-menu fs-6">
+                                <li class="dropdown-item">Features</li>
+                                <li class="dropdown-item">pricing</li>
+                                <li class="dropdown-item">blog</li>
+                                <li class="dropdown-item">testimonial</li>
+                                <li class="dropdown-item">404 page</li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">contact</a>
+                        <li class="nav-item me-3 mt-1 py-1">
+                            <a href="" class="nav-link fs-6 px-3 fw-bold">Contact Us</a>
                         </li>
-                        <li class="nav-item p-1">
-                            <a href="#login" class="btn btn-warning btn-sm" data-bs-toggle="modal"><i class="ri-user-fill"></i>login</a>
+                        <li class="nav-item me-3 mt-1">
+                            <a href="#login" class="btn border-danger-subtle rounded-pill  py-2 px-4 me-2 btn-pink hover fs-5" data-bs-toggle="modal">Log in</a>
                         </li>
+                        <li class="nav-item me-3 mt-1">
+                            <a href="#login" class="btn btn-white rounded-pill  py-2 px-4  fs-5 " data-bs-toggle="modal">Sign Up</a>
+                        </li>
+                       
                     </ul>
                 </div>
             </div>
         </div>
     </header>
 
+    <div class="container-fluid py-5 my-5">
+        <div class="row">
+            <div class="col-6  align-content-center">
+                <h1 class="display-4 text-secondary-emphasis mb-4 px-4 fw-bold ">Turn Emails into Revenue</h1>
+                <p class="fs-4 mb-4 px-4 text-secondary">Win new customers with the #1 email marketing and automations brand* that recommends ways to get more opens, clicks, and sales.</p>
+                <div class="btn px-4">
+                    <a href="" class="btn btn-white rounded-pill py-3 px-5 ">Get Started</a>
+                </div>
+            </div>
+            <div class="col-6">
+                <img src="img/hero-img-1.png" alt="" class="img-fluid w-100 h-100`">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container py-5 my-5">
+        <div class="row my-5">
+            <div class="col-6 py-5">
+                <img class="img-fluid w-100" src="img/about-1.png" alt="">
+            </div>
+            <div class="col-6 py-5">
+                <h4 class="mb-1 link-pink">
+                    About Us</h4>
+                    <h1 class="display-5 mb-4 text-secondary-emphasis fw-bold">Get Started Easily With a Personalized Product Tour</h1>
+
+                    <p class="mb-4 text-body-tertiary fw-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, suscipit itaque quaerat dicta porro illum, autem, molestias ut animi ab aspernatur dolorum officia nam dolore. Voluptatibus aliquam earum labore atque.</p>
+
+                    <div class="btn ">
+                        <a href="" class="btn btn-white rounded-pill py-3 px-5 ">About More</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="text-center">
+                    <h4 class="mb-1 link-pink ">Our Service</h4>
+                    <h1 class="display-5 mb-4 fw-bold text-secondary-emphasis">What We Can Do For You</h1>
+
+                    <p class="mb-4 text-body-tertiary fw-bold">Dolor sit amet consectetur, adipisicing elit. Ipsam, beatae maxime. Vel animi eveniet doloremque reiciendis soluta iste <br> provident non rerum illum perferendis earum est architecto dolores vitae quia vero quod incidunt culpa corporis, porro <br> doloribus. Voluptates nemo doloremque cum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="bootstrap.bundle.min.js"></script>
 </html>

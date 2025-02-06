@@ -1,3 +1,35 @@
 .text-color{
     color: rgb(247, 71, 128) !important;
+    font-size: 40px;
+    font-weight: 700;
+}
+:root{
+    --pink-:rgb(247, 71, 128)
+}
+
+.fa-envelope{
+    color: rgb(247, 71, 128) !important;
+    font-size: 40px;
+    font-weight: 700;
+}
+.btn-pink{
+    color:var(--pink-) ;
+    background-color: white;
+}
+.btn-white{
+    color:white;
+    background-color: var(--pink-);
+}
+.btn-white:hover{
+    color:var(--pink-);
+    background-color: white;
+    border: 1px solid var(--pink-);
+    transition: all 0.4s;
+}
+.btn-pink:hover{
+    color:white;
+    background-color:var(--pink-);
+}
+.link-pink{
+    color: var(--pink-);
 }
