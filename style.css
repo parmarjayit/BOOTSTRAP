@@ -1,3 +1,7 @@
+p{
+    font-family: "Rubik", serif;
+    color: #757575;
+}
 .text-color{
     color: rgb(247, 71, 128) !important;
     font-size: 40px;
@@ -6,7 +10,6 @@
 :root{
     --pink-:rgb(247, 71, 128)
 }
-
 .fa-envelope{
     color: rgb(247, 71, 128) !important;
     font-size: 40px;
@@ -26,10 +29,49 @@
     border: 1px solid var(--pink-);
     transition: all 0.4s;
 }
+.btn-light:hover{
+    color:white;
+    background-color:var(--pink-);
+    border: 1px solid var(--pink-);
+    transition: all 0.4s;
+    font-weight: 400;
+}
 .btn-pink:hover{
     color:white;
     background-color:var(--pink-);
 }
 .link-pink{
     color: var(--pink-);
+}
+.nav-item a{
+ font-family: "Rubik", serif;
+}
+.display-4{
+    color: #353f4f !important;
+    font-family: "Plus Jakarta Sans",sans-serif !important;
+    font-weight: 700 !important;
+}
+.display-5{
+    color: #353f4f !important;
+    font-family: "Plus Jakarta Sans",sans-serif !important;
+    font-weight: 700 !important;
+}
+.icon-color{
+    color: #6610f2 !important;
+}
+.service-item{
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.1);
+}
+.service-item:hover{
+    background-color: rgba(102, 16, 242, 0.09);
+    transition: all 0.5s;
+}
+.me-10{
+    margin-bottom: 200px !important;
+}
+.feature-content a:hover{
+    color: #c63966 !important;
+}
+.features-color{
+    color: #353f4f !important;
 }
