@@ -43,6 +43,9 @@ p{
 .link-pink{
     color: var(--pink-);
 }
+.link-purple{
+    color: #6610f2 !important;
+}
 .nav-item a{
  font-family: "Rubik", serif;
 }
@@ -74,4 +77,16 @@ p{
 }
 .features-color{
     color: #353f4f !important;
+}
+.dropdown-item:hover{
+  background-color:var(--pink-);
+  color: white;
+}
+.price-item:hover{
+    background-color:white !important;
+    transition: 0.4s;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.blog-img{
+    background-color: rgba(102, 16, 242, 0.2);
 }
