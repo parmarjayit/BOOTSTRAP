@@ -3,7 +3,7 @@ p{
     color: #757575;
 }
 .text-color{
-    color: rgb(247, 71, 128) !important;
+    color: #f74780 !important;
     font-size: 40px;
     font-weight: 700;
 }
@@ -11,22 +11,22 @@ p{
     --pink-:rgb(247, 71, 128)
 }
 .fa-envelope{
-    color: rgb(247, 71, 128) !important;
+    color: #f74780!important;
     font-size: 40px;
     font-weight: 700;
 }
 .btn-pink{
     color:var(--pink-) ;
-    background-color: white;
+    background-color: white !important;
 }
 .btn-white{
-    color:white;
+    color:white !important;
     background-color: var(--pink-);
 }
 .btn-white:hover{
-    color:var(--pink-);
-    background-color: white;
-    border: 1px solid var(--pink-);
+    color:#f74780 !important;
+    background-color: white !important;
+    border: 1px solid #f74780 !important;
     transition: all 0.4s;
 }
 .btn-light:hover{
@@ -37,8 +37,8 @@ p{
     font-weight: 400;
 }
 .btn-pink:hover{
-    color:white;
-    background-color:var(--pink-);
+    color:white !important;
+    background-color: #f74780 !important;
 }
 .link-pink{
     color: var(--pink-);
@@ -63,17 +63,17 @@ p{
     color: #6610f2 !important;
 }
 .service-item{
-    box-shadow: 0 0 45px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.1) !important;
 }
 .service-item:hover{
-    background-color: rgba(102, 16, 242, 0.09);
+    background-color: rgba(102, 16, 242, 0.09) !important;
     transition: all 0.5s;
 }
 .me-10{
     margin-bottom: 200px !important;
 }
 .feature-content a:hover{
-    color: #c63966 !important;
+    color: #f74780 !important;
 }
 .features-color{
     color: #353f4f !important;
@@ -85,8 +85,40 @@ p{
 .price-item:hover{
     background-color:white !important;
     transition: 0.4s;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
 }
 .blog-img{
-    background-color: rgba(102, 16, 242, 0.2);
+    background-color: rgba(99, 14, 235, 0.411) !important;
+}
+.footer2{
+    background: linear-gradient(rgba(102, 16, 242, 0.05), rgba(102, 16, 242, 0.05)) !important;
+}
+
+.footer-item a{
+    text-decoration: none;
+    line-height: 35px;
+    color: #353f4f !important;
+    font-family: "Rubik",sans-serif;
+    font-weight: 400;
+    transition: all 0.4s;
+}
+.footer-item a:hover{
+    color: #f74780 !important;
+    letter-spacing: 2px;
+}
+.btn-square{
+    border-radius: 50% !important;
+    width: 32px !important;
+    height: 32px !important;
+    background-color: #f74780 !important;
+    color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.last-bg{
+    background-color: #353f4f !important;
+}
+.design a:hover{
+    color: white  !important;
 }
