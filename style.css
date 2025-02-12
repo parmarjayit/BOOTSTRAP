@@ -122,3 +122,48 @@ p{
 .design a:hover{
     color: white  !important;
 }
+.icon-color{
+    color: rgb(102, 16, 242) !important;;
+}
+.btn-square I:hover{
+   color:  #f74780 !important;
+   border: 1px solid  #f74780 !important;
+}
+.link-white{
+    color: white !important;
+}
+.text-icon{
+   background-color: #f74780 !important;
+   color: white !important;
+}
+.text-icon:hover{
+    background-color: white !important;
+    color: #f74780 !important;
+    border: 1px solid #f74780 !important;
+}
+.carousel-control-next{
+    width: 65px !important;
+    height: 65px !important;
+    border-radius: 40px !important;
+    color:#f74780 !important;
+    background-color:rgba(102, 16, 242, 0.09) !important;
+    top: 170px !important;
+}
+.carousel-control-prev{
+    width: 65px !important;
+    height: 65px !important;
+    border-radius: 40px !important;
+    color:#f74780 !important;
+    background-color:rgba(102, 16, 242, 0.09) !important;
+    top: 170px !important;
+}
+.carousel-control-next:hover{
+    background-color: #f74780 !important;
+    color: white !important;
+    transition: all 0.5s;
+}
+.carousel-control-prev:hover{
+    background-color: #f74780 !important;
+    color: white !important;
+    transition: all 0.5s;
+}
