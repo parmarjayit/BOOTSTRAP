@@ -18,71 +18,63 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <body>
     <header>
-        <div class="navbar navbar-expand-md p-4">
-            <div class="container-fluid">
-                <h1 class="navbar-brand text-color h1"><i class="fa-solid fa-envelope"></i>         Mailler</h1>
+        <div class="container-fluid overflow-hidden position-relative p-0 header">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <h1 class="navbar-brand text-color h1">
+                    <i class="fa-solid fa-envelope"></i><a href="" class="text-color text-decoration-none px-3">Mailler</a>
+                </h1>
                 <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
                 <div class="navbar-collapse collapse p-1" id="navbar">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item me-3 mt-1 py-1">
-                            <a href="" class="nav-item nav-link link-pink ">Home</a>
-                        </li>
-                        <li class="nav-item me-3 mt-1  py-1">
-                            <a href="" class="nav-item nav-link ">About</a>
-                        </li>
-                        <li class="nav-item me-3 mt-1  py-1">
-                            <a href="" class="nav-link fs-6 ">Services</a>
-                        </li>
-                        <li class="nav-item dropdown me-3 mt-1 py-1">
-                            <a href="" class="nav-link dropdown-toggle fs-6 " data-bs-toggle="dropdown" data-bs-auto-close="outside">Pages</a>
-
-                            <ul class="dropdown-menu fs-6">
-                                <li class="dropdown-item">Features</li>
-                                <li class="dropdown-item">pricing</li>
-                                <li class="dropdown-item">blog</li>
-                                <li class="dropdown-item">testimonial</li>
-                                <li class="dropdown-item">404 page</li>
-                            </ul>
-                        </li>
-                        <li class="nav-item me-3 mt-1 py-1">
-                            <a href="" class="nav-link fs-6 px-3 ">Contact Us</a>
-                        </li>
-                        <li class="nav-item me-3 mt-1">
-                            <a href="#login" class="btn border-danger-subtle rounded-pill  py-2 px-4 me-2 btn-pink hover fs-5" data-bs-toggle="modal">Log in</a>
-                        </li>
-                        <li class="nav-item me-3 mt-1">
-                            <a href="#login" class="btn btn-white rounded-pill  py-2 px-4  fs-5 " data-bs-toggle="modal">Sign Up</a>
-                        </li>
-                       
-                    </ul>
+                    <div class="navbar-nav ms-auto font-family">
+                        <a href="" class="nav-item nav-link link-pink active">Home</a>
+                        <a href="" class="nav-item nav-link ">About</a>
+                        <a href="" class="nav-link nav-item fs-6 ">Services</a>
+                        <div class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="" class="dropdown-item">Features</a>
+                                <a href="" class="dropdown-item">Pricing</a>
+                                <a href="" class="dropdown-item">Blog</a>
+                                <a href="" class="dropdown-item">Testimonial</a>
+                                <a href="" class="dropdown-item">404 Page</a>
+                            </div>
+                        </div>
+                        <a href="" class="nav-link fs-6 nav-item">Contact Us</a>
+                        <a href="#login" class="btn border-danger-subtle rounded-pill  py-2 px-4 me-4 ms-3 btn-pink hover fs-6" data-bs-toggle="modal">Log in</a>
+                        <a href="#login" class="btn btn-white rounded-pill  py-2 px-4" data-bs-toggle="modal">Sign Up</a> 
+                    </div>
+                </div>
+            </nav>
+            
+            <div class="hero-header px-5 overflow-hidden">
+                <div class="rotate-img">
+                    <img src="img/sty-1.png" alt="" class="img-fluid">
+                    <div class="rotate-sty-2"></div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-6  align-content-center" data-aos="fade-right"   data-aos-duration="1500">
+                        <h1 class="display-4  mb-4 px-4 fw-bold ">Turn Emails into Revenue</h1>
+                        <p class="fs-4 mb-4 px-4 text-secondary">Win new customers with the #1 email marketing and automations brand* that recommends ways to get more opens, clicks, and sales.</p>
+                        <div class="btn px-4">
+                            <a href="" class="btn btn-white rounded-pill py-3 px-5 ">Get Started</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1500">
+                        <img src="img/hero-img-1.png" alt="" class=" img-fluid w-100 h-100">
+                    </div>
                 </div>
             </div>
         </div>
-    </header>
-
-    <div class="container-fluid py-5 my-5">
-        <div class="row">
-            <div class="col-lg-6  align-content-center" data-aos="fade-right"   data-aos-duration="1500">
-                <h1 class="display-4  mb-4 px-4 fw-bold ">Turn Emails into Revenue</h1>
-                <p class="fs-4 mb-4 px-4 text-secondary">Win new customers with the #1 email marketing and automations brand* that recommends ways to get more opens, clicks, and sales.</p>
-                <div class="btn px-4">
-                    <a href="" class="btn btn-white rounded-pill py-3 px-5 ">Get Started</a>
-                </div>
-            </div>
-            <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1500">
-                <img src="img/hero-img-1.png" alt="" class="img-fluid w-100 h-100`">
-            </div>
-        </div>
-    </div>
-
+    </header>    
 
     <div class="container py-5 my-5">
         <div class="row my-5">
-            <div class="col-lg-6 py-5">
-                <img class="img-fluid h-100 w-100"  src="img/about-1.png" alt="">
+            <div class="col-lg-6 py-5" data-aos="fade-up"  data-aos-duration="1000">
+                <div class="RotateMoveLeft">
+                    <img class="img-fluid h-100 w-100"  src="img/about-1.png" alt="">
+                </div>
             </div>
             <div class="col-lg-6 py-5" data-aos="fade-up"  data-aos-duration="1000">
                 <h4 class="mb-1 link-pink">
@@ -286,7 +278,8 @@
         </div>
         <div class="row g-5 pt-5 mt-5">
             <div class="col-lg-6" data-aos="fade-right"   data-aos-duration="1000">
-                <div class="feature-img mt-5">
+
+                <div class="feature-img RotateMoveLeft h-100">
                     <img src="img/hero-img-1.png" class="img-fluid h-100 w-100" alt="">
                 </div>
             </div>
@@ -334,7 +327,7 @@
                         <div class="accordion-item mb-4">
                           <h2 class="accordion-header">
                             <button class="accordion-button rounded-top collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                <span class="fs-5 text-secondary">  Why did you choose Our Email Services?</span>
+                                <span class="fs-6">  Why did you choose Our Email Services?</span>
                                 
                               
                             </button>
@@ -355,7 +348,7 @@
                         <div class="accordion-item mb-4">
                           <h2 class="accordion-header">
                             <button class="accordion-button rounded-top collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwo" aria-expanded="true" aria-controls="collapsetwo">
-                                <span class="fs-5 text-secondary">  Are there any hidden charges</span>
+                                <span class="fs-6">  Are there any hidden charges</span>
                             </button>
                           </h2>
                           <div id="collapsetwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -374,7 +367,7 @@
                         <div class="accordion-item mb-4">
                           <h2 class="accordion-header">
                             <button class="accordion-button rounded-top collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsethree" aria-expanded="true" aria-controls="collapsethree">
-                                <span class="fs-5 text-secondary">  What are the key challenges of email marketing?</span>
+                                <span class="fs-6">  What are the key challenges of email marketing?</span>
                             </button>
                           </h2>
                           <div id="collapsethree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -394,7 +387,7 @@
                       </div>
                 </div>
                 <div class="col-lg-6" data-aos="fade-left"   data-aos-duration="1000">
-                    <div class="features-img">
+                    <div class="features-img RotateMoveLeft">
                         <img src="img/about-1.png" alt="" class="img-fluid  w-100" >
                     </div>
                 </div>
@@ -455,8 +448,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-6 col-xl-4" data-aos="fade-up"  data-aos-duration="800">
+            <div class="col-md-6 col-lg-6 col-xl-4 price" data-aos="fade-up"  data-aos-duration="800">
                 <div class="price-item bg-light rounded text-center">
+                    <div class="price-item-offer">Popular</div>
                     <div class="text-center text-dark border-bottom d-flex flex-column justify-content-center p-4">
                         <p class="fs-2 fw-bold link-pink mb-0">STANDARD</p>
                         <div class="d-flex justify-content-center">
@@ -551,8 +545,8 @@
         </div>
         <div class="row g-4 justify-content-center mt-2">
             <div class="col-md-6 col-lg-4 col-xl-3 " data-aos="fade-up"  data-aos-duration="500">
-                <div class="blog-item ">
-                    <div class="blog-img rounded-top">
+                <div class="blog-item overflow-hidden ">
+                    <div class="blog-img rounded-top overflow-hidden">
                         <img src="img/blog-1.png"  alt="" class="img-fluid  w-100">
                         <div class="blog-info">
                             <div class="d-flex">
@@ -657,7 +651,7 @@
         </div>
     </div>
 
-<div class="container-fluid bg-light mt-5 pb-5">
+<div class="container-fluid bg-light mt-5 pb-5 padding-10">
     <div class="container mt-5 pt-5 ">
         <div class="row">
             <div class="col" data-aos="fade-up"  data-aos-duration="500">
@@ -668,11 +662,11 @@
                     <p class="mb-4 text-body-tertiary ">Dolor sit amet consectetur, adipisicing elit. Ipsam, beatae maxime. Vel animi eveniet doloremque reiciendis soluta iste provident non rerum illum perferendis earum est architecto dolores vitae quia vero quod incidunt culpa corporis, porro doloribus. Voluptates nemo doloremque cum.
                     </p>
                 </div>
-                <div id="carouselExampleIndicators" class="carousel slide">
+                <div id="carouselExampleIndicators" class="carousel slide" data-aos="zoom-in" data-aos-duration="500">
                     <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active testimoniol-1" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="testimoniol-2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" class="testimoniol-3"></button>
                     </div>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
